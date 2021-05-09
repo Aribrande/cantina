@@ -1,0 +1,497 @@
+body {
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    }
+
+* {
+box-sizing: border-box ;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    }
+
+/* ***TOP BANNER***    */
+
+.img-banner {
+    width: 100%;
+    height: 450px;
+    border: 12px solid #fa688e;
+    // background-attachment: fixed;
+    background: url("img/cantina-taco-logo.webp") center no-repeat, url("img/top-banner-overlay-burn-01_1200x.jpg") center no-repeat fixed;
+    background-size: 46%, cover, auto;
+   
+    }
+    
+    // ***LOGO SCREEN SIZING***
+@media screen and (max-width: 700px){
+    .img-banner {
+        height: 300px;
+        width: auto;    
+              
+        }
+    }
+// .img-container {
+//     width: 100%;
+//     height: 400px;
+//     display: block;
+//     margin-top: calc(50%-5%);
+//     // position: relative;
+//     background-position: center;
+//     background-size: cover;
+//     background-image: url("/img/cantina-taco-logo-1660x.webp");
+     
+//     }
+
+// .img-container img {
+//         width: auto;
+//         height: 100%;
+//         display: block;
+//         margin: auto;
+                
+//     }
+
+    
+/* ***ANNOUNCEMENT BANNER w TEXT*** */
+
+.announcement-banner {
+    width: 100%;
+    height: 56px;
+    display: block;
+    background-color: #fa688e;
+    
+}
+
+.announcement-wrapper {
+    width: 100%;
+    max-width: 620px;
+    height: 56px;
+    line-height: 44px;
+    display: block;
+    margin: auto;
+ 
+    }
+
+.announcement-text a {
+    width: 100%;
+    height: fit-content;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+       
+    }
+/* ***HEADER MENU BANNER*** */
+
+.header-banner {
+    width: 100%;
+    height: 113px;
+    display: block;
+    padding: 32px 48px;
+    border-bottom: 1px solid #eaeaea;
+    border-left: 12px solid #fa688e;
+    border-right: 12px solid #fa688e;
+    position: relative;
+    
+}
+
+.header-title {
+    width: 160px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    padding: 9px 0px;
+        
+}
+
+.hamburger {
+    // width: 300px;
+    float: left;
+    height: 48px;
+    display: block;
+    // background-color: brown;
+        
+    }
+
+.hamburger a {
+    width: 22px;
+    height: 16px;
+    display: inline-block;
+    padding-top: 16px;
+  
+}
+
+
+.right-bar {
+    float: right;
+    height: 48px;
+    display: block;
+   }
+
+.shop, .contact, .search {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.right-bar .search a {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    
+}
+
+.contact {
+    width: 100px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 2px solid #fa688e;
+    border-radius: 2px;
+    
+}
+.right-bar a {
+    width: 96px;
+    height: 41px;
+    line-height: 39px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fa688e;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+.right-bar .shop a {
+    width: 18px;
+    height: 21px;
+    // padding: 16px 0 0 16px;
+    display: inline-block;
+    vertical-align: middle;
+}   
+
+
+
+/* ***PLATE IMG*** */
+.plate-img {
+    width: 100%;
+    height: 640px;
+    display: block;
+    border-left: 12px solid #fa688e;
+    border-right: 12px solid #fa688e;
+    // background-image: url("./img/taco-wide_2400-plain_1500x.webp");
+    background-position: center;
+    margin: 0;
+    background-size: cover;
+   }
+
+   /* ***FEATURED TEXT*** */
+
+.featured-text-block {
+    width: 100%;
+    height: 182px;
+    display: block;
+    border-left: 12px solid #fa688e;
+    border-right: 12px solid #fa688e;
+}
+// ***Catina taco and store***
+
+.featured-text-box {
+    width: 100%;
+    max-width: 542px;
+    height: 182px;
+    display: block; 
+    margin:auto;
+    text-align: center;
+    padding: 32px;
+    line-height: 1.5em;
+    color: #373737;
+    
+}
+
+
+.featured-text-box h2 {
+    width: 100%;
+    height: 40px;
+    display: block; 
+    font-size: 28px;
+    font-weight: bold;
+    margin:-7px 0px;
+    /* padding: 0px 0px 16px; */
+    letter-spacing: .025em;
+    
+}
+
+.featured-text-box p {
+    width: 100%;
+    height: 96px;
+    display: block; 
+    font-family: 'Inconsolata', monospace;
+        /* padding: 0px 0px 16px; */
+}
+
+.featured-text-box em {
+    font-style: italic;
+    font-family: 'Inconsolata', monospace;
+ }
+
+
+//  ***Catina at home collection***
+ 
+.collection-block {
+    width: 100%;
+    height: 624px;
+    display: block;
+    padding: 72px 48px;
+    border-left: 12px solid #fa688e;
+    border-right: 12px solid #fa688e; 
+    letter-spacing: -0.31em;
+}
+
+
+.collection-block .featured-text-box {
+    width: auto;
+    height: auto;
+    display: block; 
+    margin:auto;
+    text-align: center;
+    padding: 0px 0px 32px;
+    line-height: 1.5em;
+    color: #373737;
+    letter-spacing: normal; 
+    
+}
+
+.collection-block .featured-text-box h2 {
+    width: 100%;
+    height: 40px;
+    display: block; 
+    font-size: 28px;
+    font-weight: bold;
+    margin:-7px 0px;
+    letter-spacing: .025em;
+    
+}
+
+.collection-block .featured-text-box p {
+    width: 100%;
+    height: auto;
+    display: block; 
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.collection-block .grid-container {
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+}
+.lg-1-1, .lg-1-4 {
+    display: inline-block;
+    letter-spacing: normal;
+    text-rendering: auto;
+    // box-sizing: border-box;
+}
+.lg-1-1 {
+    width: 100%;
+}
+
+.lg-1-4 {
+    width: 25%;
+}
+
+.grid-container .img-container {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    display: inline-block;
+    padding: 16px;
+    vertical-align: top;
+    text-decoration: none;
+    
+}
+
+.grid-container .img-container a {
+    width: 100%;
+    height: 360px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.grid-container .img-container img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+ h3 {
+    width: 100%;
+    height: auto;
+    display: block; 
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    padding: 0px 0px 12px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #373737;
+}
+
+.product-price-wrapper {
+    width: 100%;
+    height: fit-content;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    color: #373737;
+}
+
+.price-divider-left {
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    letter-spacing: 1px;
+    padding: 0 8px;
+    
+}
+
+.price-divider-right {
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 0 8px;
+
+}
+
+.price-divider-center {
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 8px;
+
+}
+
+.price-divider-left-linethrough {
+    letter-spacing: -.31em;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    letter-spacing: 1px;
+    padding: 0 8px;
+    text-decoration: line-through;
+    
+}
+.product-sale {
+    width: 48px;
+    height: 32px;
+    background: #fa688e;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    left: 32px;
+    padding: 9px 8px;
+    position: absolute;
+    top: 32px;
+    letter-spacing: 1px;
+    // z-index: 1;
+}
+
+.collection-block .view-collection a {
+    width: 100%;
+    height: 40px;
+    display: block; 
+    font-size: 13px;
+    padding: 16px 0px 0px;
+    text-align: center;
+    color: #373737;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+// ***PROMO BANNER***
+.promo-block {
+    width: 100%;
+    height: 544px;
+    display: block;
+    padding: 72px 48px;
+    border-left: 12px solid #fa688e;
+    border-right: 12px solid #fa688e;  
+}
+
+.promo-banner {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+// .promo-block .promo-banner h2 {
+//     width: 100%;
+//     max-width: 450px;
+//     height: 50px;
+//     display: block; 
+//     font-size: 28px;
+//     font-weight: bold;
+//     color: white;
+//     margin: 200px auto;
+//     text-align: center;
+//     // line-height: 350px;
+//     letter-spacing: .025em;
+//     padding: 0 0 16px;
+// }
+
+// .promo-block a {
+//     width: 100%;
+//     height: 40px;
+//     display: block; 
+//     font-size: 13px;
+//     padding: 16px 0px 0px;
+//     text-align: center;
+//     color: white;
+//     letter-spacing: 1px;
+//     margin: auto;
+// }
+
+// // ***THIS WEEK'S TACOS***
+
+// .tacos-container {
+//     width: 100%;
+//     height: 400px;
+//     display: block;
+//     padding: 72px 48px;
+//     border-left: 12px solid #fa688e;
+//     border-right: 12px solid #fa688e; 
+// }
+
+// .tacos-container .tacos-header {
+//     width: 100%;
+//     height: 40px;
+//     line-height: 200px;
+//     color: white;
+//     display: block; 
+//     font-size: 28px;
+//     font-weight: bold;
+//     margin:-7px 0px;
+//     letter-spacing: .025em;
+// }
